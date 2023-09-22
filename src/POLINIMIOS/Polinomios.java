@@ -118,7 +118,7 @@ public class Polinomios {
                         Vs[i] = Vs[k];
                         Vs[i - 1] = Vs[k - 1];
                         Vs[k] = auxe;
-                        Vs[k + 1] = auxc;
+                        Vs[k - 1] = auxc;
                     }
                 }
 
@@ -395,6 +395,16 @@ public class Polinomios {
 
                 case 2:
                     A.MostrarForma();
+                    //   String Vc[] = Ingresar();
+                    // PolinomioF1 D = new PolinomioF1(Grado(Vc)+1);
+                    // D.ConvertF1(Vc);
+                    // Vc= Ingresar();
+                    //  PolinomioF2 C = new PolinomioF2(Terminos(Vc)*2);
+                    // C.ConvertF2(Vc);
+                    // A=new PolinomioF3();
+                    // A.SumaF1F2(D,C);
+                    // D.MostrarP();
+
                     break;
 
                 case 3:
